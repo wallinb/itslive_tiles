@@ -1,0 +1,11 @@
+name: itslive_tiles
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python~=3.9
+  - jupyter~=1.0
+  - pandas~=1.2
+  - ipyleaflet~=0.13
+  - pip:
+    - awscli~=1.19
